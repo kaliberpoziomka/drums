@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DRUMKIT</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<audio id="clap" src="clap.wav"></audio>
+<audio id="boom" src="boom.wav"></audio>
+<audio id="hihat" src="hihat.wav"></audio>
+<audio id="kick" src="kick.wav"></audio>
+<audio id="openhat" src="openhat.wav"></audio>
+<audio id="ride" src="ride.wav"></audio>
+<audio id="snare" src="snare.wav"></audio>
+<audio id="tink" src="tink.wav"></audio>
+<audio id="tom" src="tom.wav"></audio>
+
+    <div class="mainBox" id="mainBox">
+        <button data-key="65" class="button" id="one" onclick="playSound('clap')">A</button>
+        <button data-key="83" class="button" id="two">S</button>
+        <button data-key="68" class="button" id="three">D</button>
+        <button data-key="70" class="button" id="four">F</button>
+        <button data-key="71" class="button" id="five">G</button>
+        <button data-key="72" class="button" id="six">H</button>
+        <button data-key="74" class="button" id="seven">J</button>
+        <button data-key="75" class="button" id="eigth">K</button>
+        <button data-key="76" class="button" id="nine">L</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
